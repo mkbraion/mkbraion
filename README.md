@@ -54,15 +54,6 @@
 - 📱 **KAIAfy** — aplicativo de vendas com IA e agenda de conteúdo, feito em Flutter *(privado)*
 - 🖥️ **KAIAfy Site** — estúdio de conteúdo web em Next.js *(privado)*
 
-## 📊 Estatísticas
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=mkbraion&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br&bg_color=00000000" height="165" alt="Estatísticas do GitHub"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mkbraion&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br&bg_color=00000000" height="165" alt="Linguagens mais usadas"/>
-
-</div>
-
 ---
 
 <div align="center">
