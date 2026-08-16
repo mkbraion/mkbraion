@@ -3,7 +3,7 @@
 **Desenvolvedor full-stack.** Node.js, Express, Prisma e PostgreSQL no back-end; Flutter e JavaScript no front.
 
 Procurando a **primeira oportunidade como Engenheiro de Software Júnior** — aberto a remoto, híbrido ou presencial.
-Santa Maria, RS · [mkbraion@gmail.com](mailto:mkbraion@gmail.com) · [Portfólio](https://mkbraion.github.io) · [LinkedIn](https://www.linkedin.com/in/SEU-USUARIO-AQUI)
+Santa Maria, RS · [mkbraion@gmail.com](mailto:mkbraion@gmail.com) · [Portfólio](https://mkbraion.github.io) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-0498852b3/)
 
 ---
 
