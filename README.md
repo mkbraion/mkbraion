@@ -21,7 +21,7 @@ Loja full-stack com cadastro, login e checkout. Foi onde estudei segurança de a
 - O servidor **se recusa a subir** se o `JWT_SECRET` for fraco ou ausente.
 - `Node · Express · Prisma · SQLite/Postgres · JWT · Stripe`
 
-[Código](https://github.com/mkbraion/loja-checkout) · [Demo ao vivo](https://loja-checkout.onrender.com)
+[Código](https://github.com/mkbraion/loja-checkout) · [Como rodar](https://github.com/mkbraion/loja-checkout#como-rodar)
 
 ### CRM de Funil de Vendas + API
 Um CRM em kanban que funciona offline no navegador e, ao fazer login, sincroniza na nuvem.
