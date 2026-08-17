@@ -33,7 +33,7 @@ Um CRM em kanban que funciona offline no navegador e, ao fazer login, sincroniza
 
 [API](https://github.com/mkbraion/crm-api) · [Front](https://github.com/mkbraion/crm-funil-vendas) · [Demo ao vivo](https://mkbraion.github.io/crm-funil-vendas/)
 
-### KAIA Agenda
+### Lefon Agenda
 Agenda de visitas para uma equipe de corretores, em produção.
 
 - Aqui não existe servidor próprio: o navegador fala direto com o Postgres do Supabase. Isso obriga a colocar **toda a autorização no banco**, via **Row Level Security** — porque o JavaScript o usuário consegue alterar.
@@ -43,7 +43,7 @@ Agenda de visitas para uma equipe de corretores, em produção.
 
 [Código](https://github.com/mkbraion/kaia-agenda) · [Demo ao vivo](https://mkbraion.github.io/kaia-agenda/) · [Modelo de segurança](https://github.com/mkbraion/kaia-agenda/blob/main/SECURITY.md)
 
-### KAIA Lucro
+### Lefon Lucro
 App de gestão para revendedor: lucro real por venda, estoque, fiado e caixa. Instalável (PWA).
 
 - Cada revendedor só enxerga os próprios dados, garantido por RLS no Postgres.
