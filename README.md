@@ -41,7 +41,7 @@ Agenda de visitas para uma equipe de corretores, em produção.
 - Script do CDN travado por **Subresource Integrity** e versão fixa, mais **Content-Security-Policy** e HSTS.
 - `PostgreSQL · Supabase · RLS · JS puro`
 
-[Código](https://github.com/mkbraion/kaia-agenda) · [Demo ao vivo](https://mkbraion.github.io/kaia-agenda/) · [Modelo de segurança](https://github.com/mkbraion/kaia-agenda/blob/main/SECURITY.md)
+[Código](https://github.com/mkbraion/lefon-agenda) · [Demo ao vivo](https://mkbraion.github.io/lefon-agenda/) · [Modelo de segurança](https://github.com/mkbraion/lefon-agenda/blob/main/SECURITY.md)
 
 ### Lefon Lucro
 App de gestão para revendedor: lucro real por venda, estoque, fiado e caixa. Instalável (PWA).
@@ -50,7 +50,7 @@ App de gestão para revendedor: lucro real por venda, estoque, fiado e caixa. In
 - A loja pública mostra os produtos ao cliente sem vazar **preço de custo e fornecedor** — resolvido com privilégio por coluna no banco, não escondendo campo na tela.
 - `Flutter · Dart · Supabase · PostgreSQL`
 
-[App instalável](https://mkbraion.github.io/kaia-lucro-web/)
+[App instalável](https://mkbraion.github.io/lefon-lucro-web/)
 
 ---
 
