@@ -1,63 +1,73 @@
-<div align="center">
+# Nelson Neto
 
-<a href="https://mkbraion.github.io"><img src="https://mkbraion.github.io/og.jpg" alt="MK O Dev — Desenvolvedor de Software" width="830"/></a>
+**Desenvolvedor full-stack.** Node.js, Express, Prisma e PostgreSQL no back-end; Flutter e JavaScript no front.
 
-# Olá! Eu sou o MK 👋
-
-**Desenvolvedor de Software** — transformo ideias em sites, aplicativos e soluções com inteligência artificial.
-
-[![Portfólio](https://img.shields.io/badge/🌐_Portfólio-mkbraion.github.io-7c3aed?style=for-the-badge)](https://mkbraion.github.io)
-[![Instagram](https://img.shields.io/badge/Instagram-@dev__mkbraion-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/dev_mkbraion/)
-[![Email](https://img.shields.io/badge/Email-contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mkbraion@gmail.com)
-
-</div>
+Procurando a **primeira oportunidade como Engenheiro de Software Júnior** — aberto a remoto, híbrido ou presencial.
+Santa Maria, RS · [mkbraion@gmail.com](mailto:mkbraion@gmail.com) · [Portfólio](https://mkbraion.github.io) · [LinkedIn](https://www.linkedin.com/in/SEU-USUARIO-AQUI)
 
 ---
 
-## 🎓 Formação
+## Projetos
+
+Todos com código aberto e a maioria rodando ao vivo. Comecei escrevendo software para resolver
+problemas reais de negócio — controle de estoque, funil de vendas, agenda de visitas — e fui
+aprendendo back-end pela necessidade de fazer aquilo funcionar em vários aparelhos com segurança.
+
+### Loja Virtual — autenticação e checkout
+Loja full-stack com cadastro, login e checkout. Foi onde estudei segurança de aplicação a sério.
+
+- **O problema que resolve:** o erro clássico da loja mal feita é confiar no preço que o navegador manda. Aqui o carrinho envia só produto e quantidade — **o total é somado a partir do preço do banco**, então não dá para adulterar pelo DevTools.
+- Senhas em **bcrypt** (cost 12), **JWT** com segredo em variável de ambiente e expiração, **rate limit** no login, mensagens de erro genéricas (não revelam se o e-mail existe), **Helmet** com CSP, e Prisma com consultas parametrizadas.
+- O servidor **se recusa a subir** se o `JWT_SECRET` for fraco ou ausente.
+- `Node · Express · Prisma · SQLite/Postgres · JWT · Stripe`
+
+[Código](https://github.com/mkbraion/loja-checkout) · [Demo ao vivo](https://loja-checkout.onrender.com)
+
+### CRM de Funil de Vendas + API
+Um CRM em kanban que funciona offline no navegador e, ao fazer login, sincroniza na nuvem.
+
+- Arquitetura em duas partes: o **front** roda sozinho com `localStorage`; a **API** entra quando o usuário quer os leads em vários aparelhos. Se o servidor cair ou a sessão expirar, volta ao modo local **sem perder dado**.
+- Cada lead é isolado por usuário — as rotas checam o dono, protegendo contra **IDOR**.
+- REST com sete endpoints, autenticação por Bearer token, deploy automatizado via `render.yaml`.
+- `Node · Express · Prisma · PostgreSQL · JWT · JS puro`
+
+[API](https://github.com/mkbraion/crm-api) · [Front](https://github.com/mkbraion/crm-funil-vendas) · [Demo ao vivo](https://mkbraion.github.io/crm-funil-vendas/)
+
+### KAIA Agenda
+Agenda de visitas para uma equipe de corretores, em produção.
+
+- Aqui não existe servidor próprio: o navegador fala direto com o Postgres do Supabase. Isso obriga a colocar **toda a autorização no banco**, via **Row Level Security** — porque o JavaScript o usuário consegue alterar.
+- Modelo de permissão por cargo, com **trigger que impede o usuário de alterar o próprio cargo** (sem isso, um `UPDATE` na API viraria escalada para admin).
+- Script do CDN travado por **Subresource Integrity** e versão fixa, mais **Content-Security-Policy** e HSTS.
+- `PostgreSQL · Supabase · RLS · JS puro`
+
+[Código](https://github.com/mkbraion/kaia-agenda) · [Demo ao vivo](https://mkbraion.github.io/kaia-agenda/) · [Modelo de segurança](https://github.com/mkbraion/kaia-agenda/blob/main/SECURITY.md)
+
+### KAIA Lucro
+App de gestão para revendedor: lucro real por venda, estoque, fiado e caixa. Instalável (PWA).
+
+- Cada revendedor só enxerga os próprios dados, garantido por RLS no Postgres.
+- A loja pública mostra os produtos ao cliente sem vazar **preço de custo e fornecedor** — resolvido com privilégio por coluna no banco, não escondendo campo na tela.
+- `Flutter · Dart · Supabase · PostgreSQL`
+
+[App instalável](https://mkbraion.github.io/kaia-lucro-web/)
+
+---
+
+## Tecnologias
+
+**Back-end** — Node.js, Express, Prisma, PostgreSQL, SQLite, REST, JWT, bcrypt
+**Front-end** — JavaScript, HTML, CSS, React, Next.js
+**Mobile** — Flutter, Dart
+**Infra** — Git, GitHub Actions, Render, Vercel, Supabase
+
+## Formação
 
 - **Engenharia de Software** — graduação em andamento
-- **Análise e Desenvolvimento de Sistemas**
-- **Ciência de Dados & Inteligência Artificial**
-- 📜 Certificações em Banco de Dados (Instituto Federal / Aprenda Mais) — e sempre estudando mais
+- Análise e Desenvolvimento de Sistemas
+- Certificações em Banco de Dados — Instituto Federal / Aprenda Mais
 
-## 🚀 O que eu construo
+## Estudando agora
 
-| Área | Descrição |
-|---|---|
-| 🌐 **Sites & Landing Pages** | Páginas modernas, rápidas e responsivas |
-| 📱 **Aplicativos** | Apps Android e multiplataforma com Flutter |
-| ⚙️ **Sistemas & Automações** | Ferramentas sob medida para negócios ganharem tempo |
-| 🧠 **IA & Dados** | Integrações com inteligência artificial e análise de dados |
-
-## 🛠️ Tecnologias
-
-<div align="center">
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-</div>
-
-## 📌 Projetos em destaque
-
-- 🌐 **[Portfólio pessoal](https://mkbraion.github.io)** — site com efeitos de scroll dinâmicos, formulário de contato integrado e deploy automatizado via GitHub Actions
-- 📱 **KAIAfy** — aplicativo de vendas com IA e agenda de conteúdo, feito em Flutter *(privado)*
-- 🖥️ **KAIAfy Site** — estúdio de conteúdo web em Next.js *(privado)*
-
----
-
-<div align="center">
-
-💬 **Tem um projeto em mente?** Me chama pelo [site](https://mkbraion.github.io/#contato) ou pelo [Instagram](https://www.instagram.com/dev_mkbraion/) — vamos tirar sua ideia do papel. 🚀
-
-</div>
+Testes automatizados (Jest e Supertest), TypeScript e Docker — para levar os projetos acima
+ao padrão que se espera de um time.
