@@ -9,9 +9,20 @@ Santa Maria, RS · [mkbraion@gmail.com](mailto:mkbraion@gmail.com) · [Portfóli
 
 ## Projetos
 
-Todos com código aberto e a maioria rodando ao vivo. Comecei escrevendo software para resolver
-problemas reais de negócio — controle de estoque, funil de vendas, agenda de visitas — e fui
-aprendendo back-end pela necessidade de fazer aquilo funcionar em vários aparelhos com segurança.
+Um site de cliente no ar em domínio próprio, mais projetos de código aberto — a maioria rodando ao vivo.
+Comecei escrevendo software para resolver problemas reais de negócio — controle de estoque, funil de
+vendas, agenda de visitas — e fui aprendendo back-end pela necessidade de fazer aquilo funcionar em
+vários aparelhos com segurança.
+
+### Site do Dr. Jeferson Pires — cliente real, no ar
+Site institucional de um cirurgião em Santa Maria/RS, no ar em domínio próprio.
+
+- **Cliente pagante:** remodelei a presença online do consultório num site rápido e responsivo, com seções de especialidades, cirurgia robótica e vídeos.
+- **Conversão pensada:** o agendamento cai direto no WhatsApp do consultório, e o layout passa confiança já na primeira dobra.
+- Publicado e mantido em produção na **Hostinger**, com domínio próprio.
+- `HTML · CSS · JavaScript · Design responsivo`
+
+[Ver o site](https://drjefersonpires.com/)
 
 ### Loja Virtual — autenticação e checkout
 Loja full-stack com cadastro, login e checkout. Foi onde estudei segurança de aplicação a sério.
