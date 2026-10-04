@@ -1,84 +1,82 @@
 # Nelson Neto
 
-**Desenvolvedor full-stack.** Node.js, Express, Prisma e PostgreSQL no back-end; Flutter e JavaScript no front.
+**Estudante de Engenharia de Software, no primeiro ano da graduação, construindo minha base em programação por meio de projetos reais.** Atualmente estudo Python na faculdade e aprofundo, na prática, JavaScript, HTML, CSS, Node.js, bancos de dados, Flutter, C++, APIs e integrações.
 
-Procurando a **primeira oportunidade como Engenheiro de Software Júnior** — aberto a remoto, híbrido ou presencial.
+Busco evoluir como desenvolvedor a cada projeto, entendendo cada vez melhor a lógica, a estrutura do código, a comunicação entre sistemas e a forma correta de organizar aplicações para web, mobile e back-end.
+
 Santa Maria, RS · [mkbraion@gmail.com](mailto:mkbraion@gmail.com) · [Portfólio](https://mkbraion.github.io) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-0498852b3/)
 
 ---
 
-## Projetos
+## Projetos em destaque
 
-Um site de cliente no ar em domínio próprio, mais projetos de código aberto — a maioria rodando ao vivo.
-Comecei escrevendo software para resolver problemas reais de negócio — controle de estoque, funil de
-vendas, agenda de visitas — e fui aprendendo back-end pela necessidade de fazer aquilo funcionar em
-vários aparelhos com segurança.
+### Site do Dr. Jeferson Pires
+Site institucional de um cirurgião em Santa Maria/RS, publicado em domínio próprio, com layout responsivo, páginas de especialidades e contato direto pelo WhatsApp.
 
-### Site do Dr. Jeferson Pires — cliente real, no ar
-Site institucional de um cirurgião em Santa Maria/RS, no ar em domínio próprio.
-
-- **Cliente pagante:** remodelei a presença online do consultório num site rápido e responsivo, com seções de especialidades, cirurgia robótica e vídeos.
-- **Conversão pensada:** o agendamento cai direto no WhatsApp do consultório, e o layout passa confiança já na primeira dobra.
-- Publicado e mantido em produção na **Hostinger**, com domínio próprio.
-- `HTML · CSS · JavaScript · Design responsivo`
-
-[Ver o site](https://drjefersonpires.com/)
+[Ver site](https://drjefersonpires.com/)
 
 ### Loja Virtual — autenticação e checkout
-Loja full-stack com cadastro, login e checkout. Foi onde estudei segurança de aplicação a sério.
+Projeto full-stack com cadastro, login, carrinho, pedidos e checkout. O back-end calcula os valores a partir do banco de dados e utiliza autenticação, hash de senha, rate limiting e variáveis de ambiente.
 
-- **O problema que resolve:** o erro clássico da loja mal feita é confiar no preço que o navegador manda. Aqui o carrinho envia só produto e quantidade — **o total é somado a partir do preço do banco**, então não dá para adulterar pelo DevTools.
-- Senhas em **bcrypt** (cost 12), **JWT** com segredo em variável de ambiente e expiração, **rate limit** no login, mensagens de erro genéricas (não revelam se o e-mail existe), **Helmet** com CSP, e Prisma com consultas parametrizadas.
-- O servidor **se recusa a subir** se o `JWT_SECRET` for fraco ou ausente.
-- `Node · Express · Prisma · SQLite/Postgres · JWT · Stripe`
+`Node.js · Express · Prisma · PostgreSQL/SQLite · JWT · Stripe`
 
-[Código](https://github.com/mkbraion/loja-checkout) · [Como rodar](https://github.com/mkbraion/loja-checkout#como-rodar)
+[Código](https://github.com/mkbraion/loja-checkout)
 
-### CRM de Funil de Vendas + API
-Um CRM em kanban que funciona offline no navegador e, ao fazer login, sincroniza na nuvem.
+### CRM · Funil de Vendas
+CRM em formato kanban para cadastrar leads, acompanhar etapas do funil, valores e conversão. Funciona localmente e possui API própria para sincronização entre dispositivos.
 
-- Arquitetura em duas partes: o **front** roda sozinho com `localStorage`; a **API** entra quando o usuário quer os leads em vários aparelhos. Se o servidor cair ou a sessão expirar, volta ao modo local **sem perder dado**.
-- Cada lead é isolado por usuário — as rotas checam o dono, protegendo contra **IDOR**.
-- REST com sete endpoints, autenticação por Bearer token, deploy automatizado via `render.yaml`.
-- `Node · Express · Prisma · PostgreSQL · JWT · JS puro`
+`JavaScript · Node.js · Express · Prisma · PostgreSQL · REST`
 
-[API](https://github.com/mkbraion/crm-api) · [Front](https://github.com/mkbraion/crm-funil-vendas) · [Demo ao vivo](https://mkbraion.github.io/crm-funil-vendas/)
+[Front-end](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) · [Demo](https://mkbraion.github.io/crm-funil-vendas/)
 
 ### Lefon Agenda
-Agenda de visitas para uma equipe de corretores, em produção.
+Sistema de agenda para corretores, com autenticação, banco de dados e regras de acesso.
 
-- Aqui não existe servidor próprio: o navegador fala direto com o Postgres do Supabase. Isso obriga a colocar **toda a autorização no banco**, via **Row Level Security** — porque o JavaScript o usuário consegue alterar.
-- Modelo de permissão por cargo, com **trigger que impede o usuário de alterar o próprio cargo** (sem isso, um `UPDATE` na API viraria escalada para admin).
-- Script do CDN travado por **Subresource Integrity** e versão fixa, mais **Content-Security-Policy** e HSTS.
-- `PostgreSQL · Supabase · RLS · JS puro`
+`JavaScript · Supabase · PostgreSQL · RLS`
 
-[Código](https://github.com/mkbraion/lefon-agenda) · [Demo ao vivo](https://mkbraion.github.io/lefon-agenda/) · [Modelo de segurança](https://github.com/mkbraion/lefon-agenda/blob/main/SECURITY.md)
+[Código](https://github.com/mkbraion/lefon-agenda)
 
 ### Lefon Lucro
-App de gestão para revendedor: lucro real por venda, estoque, fiado e caixa. Instalável (PWA).
+Sistema de gestão para revendedores, com controle de vendas, estoque, fiado e caixa. O aplicativo mobile permanece como projeto separado; aqui mantenho também a versão web.
 
-- Cada revendedor só enxerga os próprios dados, garantido por RLS no Postgres.
-- A loja pública mostra os produtos ao cliente sem vazar **preço de custo e fornecedor** — resolvido com privilégio por coluna no banco, não escondendo campo na tela.
-- `Flutter · Dart · Supabase · PostgreSQL`
+`Flutter · Dart · Supabase · PostgreSQL`
 
-[App instalável](https://mkbraion.github.io/lefon-lucro-web/)
+[Versão web](https://mkbraion.github.io/lefon-lucro-web/)
+
+### Pactual Imóveis — Agenda Online
+Sistema de agendamento para clientes e administração de horários, serviços e reservas, com autenticação e banco de dados.
+
+`React · TypeScript · Supabase · PostgreSQL · Cloudflare Workers`
+
+[Projeto](https://github.com/mkbraion/remax-pactual-agenda)
 
 ---
 
-## Tecnologias
+## Tecnologias que estou desenvolvendo
 
-**Back-end** — Node.js, Express, Prisma, PostgreSQL, SQLite, REST, JWT, bcrypt
-**Front-end** — JavaScript, HTML, CSS, React, Next.js
-**Mobile** — Flutter, Dart
-**Infra** — Git, GitHub Actions, Render, Vercel, Supabase
+**Principal foco atual:** Python, lógica de programação, estruturas de dados e banco de dados.
+
+**Web:** JavaScript, HTML, CSS, Node.js, Express, React e APIs REST.
+
+**Dados:** PostgreSQL, SQLite, Prisma, Supabase e modelagem relacional.
+
+**Mobile:** Flutter e Dart.
+
+**Game development:** C++ e Unreal Engine.
+
+**Ferramentas e integração:** Git, GitHub, APIs, autenticação, deploy e integrações entre serviços.
 
 ## Formação
 
-- **Engenharia de Software** — graduação em andamento
-- Análise e Desenvolvimento de Sistemas
-- Certificações em Banco de Dados — Instituto Federal / Aprenda Mais
+- **Engenharia de Software** — em andamento, primeiro ano
+- **Análise e Desenvolvimento de Sistemas** — em andamento
+- **Formação complementar** — cursos e bootcamps em Python, Node.js, banco de dados, SQL, desenvolvimento web e dados
 
 ## Estudando agora
 
-Testes automatizados (Jest e Supertest), TypeScript e Docker — para levar os projetos acima
-ao padrão que se espera de um time.
+- Python e lógica de programação na graduação
+- Estruturas de dados e bancos de dados
+- APIs REST e integrações entre sistemas
+- C++ e Unreal Engine no desenvolvimento do Project Eclipse
+- JavaScript, Node.js e arquitetura de aplicações web
+- Flutter/Dart para aplicações mobile
