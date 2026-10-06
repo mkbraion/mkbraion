@@ -20,7 +20,7 @@ Projeto full-stack com cadastro, login, carrinho, pedidos e checkout. O back-end
 
 `Node.js · Express · Prisma · PostgreSQL/SQLite · JWT · Stripe`
 
-[Código](https://github.com/mkbraion/loja-checkout)
+[Demo ao vivo](https://loja-checkout.onrender.com) · [Código](https://github.com/mkbraion/loja-checkout)
 
 ### CRM · Funil de Vendas
 CRM em formato kanban para cadastrar leads, acompanhar etapas do funil, valores e conversão. Funciona localmente e possui API própria para sincronização entre dispositivos.
