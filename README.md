@@ -1,3 +1,19 @@
+<!-- MKBRAION-POLISH:START -->
+<div align="center">
+
+# Mkbraion
+
+**Perfil e portfólio de Nelson Neto (@mkbraion), com projetos de engenharia de software, desenvolvimento full-stack, back-end, mobile e inteligência artificial.**
+
+[![Repositório](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github)](https://github.com/mkbraion/mkbraion)
+
+</div>
+
+**Stack / tópicos:** ``artificial-intelligence`` · ``backend`` · ``crm`` · ``developer-profile`` · ``ecommerce`` · ``express`` · ``flutter`` · ``frontend`` · ``fullstack`` · ``github-profile`` · ``jwt`` · ``kanban``
+
+> Projeto mantido por [@mkbraion](https://github.com/mkbraion).
+<!-- MKBRAION-POLISH:END -->
+
 # Nelson Neto
 
 **Estudante de Engenharia de Software, no primeiro ano da graduação, construindo minha base em programação por meio de projetos reais.** Atualmente estudo Python na faculdade e aprofundo, na prática, JavaScript, HTML, CSS, Node.js, bancos de dados, Flutter, C++, APIs e integrações.
