@@ -1,7 +1,7 @@
 <!-- MKBRAION-POLISH:START -->
 <div align="center">
 
-# Mkbraion
+# mkbraion
 
 **Perfil e portfólio de Nelson Neto (@mkbraion), com projetos de engenharia de software, desenvolvimento full-stack, back-end, mobile e inteligência artificial.**
 
