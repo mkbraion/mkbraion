@@ -84,6 +84,7 @@ Sistema de agendamento para clientes e administração de horários, serviços e
 
 ## Formação
 
+- **Ciência de Dados e Inteligência Artificial** — Universidade Federal de Santa Maria (UFSM), campus Cachoeira do Sul — em andamento, 2º semestre
 - **Engenharia de Software** — em andamento, primeiro ano
 - **Análise e Desenvolvimento de Sistemas** — em andamento
 - **Formação complementar** — cursos e bootcamps em Python, Node.js, banco de dados, SQL, desenvolvimento web e dados
