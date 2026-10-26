@@ -1,99 +1,86 @@
-<!-- MKBRAION-POLISH:START -->
 <div align="center">
 
-# mkbraion
+# Olá, eu sou Nelson Neto 👋
 
-**Perfil e portfólio de Nelson Neto (@mkbraion), com projetos de engenharia de software, desenvolvimento full-stack, back-end, mobile e inteligência artificial.**
+### `mkbraion` · Estudante de Tecnologia
 
-[![Repositório](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github)](https://github.com/mkbraion/mkbraion)
+**Engenharia de Software | Ciência de Dados e Inteligência Artificial**
+
+Estudando, experimentando e construindo projetos para desenvolver minhas habilidades em tecnologia.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nelson-neto-0498852b3/)
+[![Portfólio](https://img.shields.io/badge/Portfólio-Visitar-20232A?style=for-the-badge&logo=githubpages&logoColor=white)](https://mkbraion.github.io)
+[![E-mail](https://img.shields.io/badge/E--mail-Contato-555555?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mkbraion@gmail.com)
+
+📍 Santa Maria, Rio Grande do Sul, Brasil
 
 </div>
 
-**Stack / tópicos:** ``artificial-intelligence`` · ``backend`` · ``crm`` · ``developer-profile`` · ``ecommerce`` · ``express`` · ``flutter`` · ``frontend`` · ``fullstack`` · ``github-profile`` · ``jwt`` · ``kanban``
+---
 
-> Projeto mantido por [@mkbraion](https://github.com/mkbraion).
-<!-- MKBRAION-POLISH:END -->
+## 👨‍💻 Sobre mim
 
-# Nelson Neto
+Sou estudante de **Engenharia de Software** e **Ciência de Dados e Inteligência Artificial**, com interesse em programação, desenvolvimento de software, automação e IA.
 
-**Estudante de Engenharia de Software, no primeiro ano da graduação, construindo minha base em programação por meio de projetos reais.** Atualmente estudo Python na faculdade e aprofundo, na prática, JavaScript, HTML, CSS, Node.js, bancos de dados, Flutter, C++, APIs e integrações.
+Uso este espaço para registrar projetos, experimentar ferramentas e acompanhar meu aprendizado. Estou construindo minha base técnica e busco oportunidades para aprender com outras pessoas e adquirir experiência profissional na área de TI.
 
-Busco evoluir como desenvolvedor a cada projeto, entendendo cada vez melhor a lógica, a estrutura do código, a comunicação entre sistemas e a forma correta de organizar aplicações para web, mobile e back-end.
+## 🎓 Formação acadêmica
 
-Santa Maria, RS · [mkbraion@gmail.com](mailto:mkbraion@gmail.com) · [Portfólio](https://mkbraion.github.io) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-0498852b3/)
+- **Ciência de Dados e Inteligência Artificial** — Universidade Federal de Santa Maria (UFSM), campus Cachoeira do Sul · **2º semestre, em andamento**
+- **Engenharia de Software** — Anhanguera Educacional · **2º semestre, em andamento**
+
+## 🚀 Projetos em destaque
+
+Os repositórios abaixo documentam experiências práticas e projetos em diferentes estágios de desenvolvimento. As tecnologias citadas descrevem os projetos, não certificações de domínio profissional.
+
+| Projeto | O que exploro nele | Links |
+| :--- | :--- | :--- |
+| **SalesHub** | Aplicações e ferramentas relacionadas à gestão de vendas | [Repositório](https://github.com/mkbraion/SalesHub) |
+| **KAIA / kaiafy** | Ideias e experimentos envolvendo IA e aplicações digitais | [Repositório](https://github.com/mkbraion/kaiafy) |
+| **Loja virtual e checkout** | Fluxos de autenticação, carrinho, pedidos e integração de serviços | [Código](https://github.com/mkbraion/loja-checkout) |
+| **CRM — Funil de Vendas** | Organização de leads, etapas comerciais e integração com API | [Interface](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) |
+| **Agenda para imóveis** | Experimentos com agendamento e organização de horários | [Repositório](https://github.com/mkbraion/remax-pactual-agenda) |
+| **Lefon Agenda** | Gestão de agendamentos e acesso a dados | [Repositório](https://github.com/mkbraion/lefon-agenda) |
+| **AstrBot Brasil** | Exploração e adaptação de projetos de código aberto | [Repositório](https://github.com/mkbraion/AstrBot-Brasil) |
+
+> Alguns projetos são estudos, protótipos ou trabalhos em evolução. Consulte cada repositório para conhecer seu estado atual, instruções e eventuais créditos e licenças.
+
+## 📚 Tecnologias que estudo e exploro
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+</div>
+
+**Foco de aprendizado:** lógica de programação, fundamentos de software, análise de dados, inteligência artificial, bancos de dados e integração entre sistemas.
+
+## 📊 Atividade no GitHub
+
+<div align="center">
+
+![Estatísticas de mkbraion](https://github-readme-stats.vercel.app/api?username=mkbraion&show_icons=true&hide_border=true&theme=transparent)
+
+![Linguagens nos repositórios públicos](https://github-readme-stats.vercel.app/api/top-langs/?username=mkbraion&layout=compact&hide_border=true&theme=transparent)
+
+<sub>Os gráficos dependem de serviços externos e representam dados dos repositórios, não nível de proficiência.</sub>
+
+</div>
 
 ---
 
-## Projetos em destaque
+<div align="center">
 
-### Site do Dr. Jeferson Pires
-Site institucional de um cirurgião em Santa Maria/RS, publicado em domínio próprio, com layout responsivo, páginas de especialidades e contato direto pelo WhatsApp.
+**Aprendendo continuamente, um projeto de cada vez.**
 
-[Ver site](https://drjefersonpires.com/)
+[GitHub](https://github.com/mkbraion) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-0498852b3/) · [Portfólio](https://mkbraion.github.io)
 
-### Loja Virtual — autenticação e checkout
-Projeto full-stack com cadastro, login, carrinho, pedidos e checkout. O back-end calcula os valores a partir do banco de dados e utiliza autenticação, hash de senha, rate limiting e variáveis de ambiente.
-
-`Node.js · Express · Prisma · PostgreSQL/SQLite · JWT · Stripe`
-
-[Demo ao vivo](https://loja-checkout.onrender.com) · [Código](https://github.com/mkbraion/loja-checkout)
-
-### CRM · Funil de Vendas
-CRM em formato kanban para cadastrar leads, acompanhar etapas do funil, valores e conversão. Funciona localmente e possui API própria para sincronização entre dispositivos.
-
-`JavaScript · Node.js · Express · Prisma · PostgreSQL · REST`
-
-[Front-end](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) · [Demo](https://mkbraion.github.io/crm-funil-vendas/)
-
-### Lefon Agenda
-Sistema de agenda para corretores, com autenticação, banco de dados e regras de acesso.
-
-`JavaScript · Supabase · PostgreSQL · RLS`
-
-[Código](https://github.com/mkbraion/lefon-agenda)
-
-### Lefon Lucro
-Sistema de gestão para revendedores, com controle de vendas, estoque, fiado e caixa. O aplicativo mobile permanece como projeto separado; aqui mantenho também a versão web.
-
-`Flutter · Dart · Supabase · PostgreSQL`
-
-[Versão web](https://mkbraion.github.io/lefon-lucro-web/)
-
-### Pactual Imóveis — Agenda Online
-Sistema de agendamento para clientes e administração de horários, serviços e reservas, com autenticação e banco de dados.
-
-`React · TypeScript · Supabase · PostgreSQL · Cloudflare Workers`
-
-[Projeto](https://github.com/mkbraion/remax-pactual-agenda)
-
----
-
-## Tecnologias que estou desenvolvendo
-
-**Principal foco atual:** Python, lógica de programação, estruturas de dados e banco de dados.
-
-**Web:** JavaScript, HTML, CSS, Node.js, Express, React e APIs REST.
-
-**Dados:** PostgreSQL, SQLite, Prisma, Supabase e modelagem relacional.
-
-**Mobile:** Flutter e Dart.
-
-**Game development:** C++ e Unreal Engine.
-
-**Ferramentas e integração:** Git, GitHub, APIs, autenticação, deploy e integrações entre serviços.
-
-## Formação
-
-- **Ciência de Dados e Inteligência Artificial** — Universidade Federal de Santa Maria (UFSM), campus Cachoeira do Sul — em andamento, 2º semestre
-- **Engenharia de Software** — em andamento, primeiro ano
-- **Análise e Desenvolvimento de Sistemas** — em andamento
-- **Formação complementar** — cursos e bootcamps em Python, Node.js, banco de dados, SQL, desenvolvimento web e dados
-
-## Estudando agora
-
-- Python e lógica de programação na graduação
-- Estruturas de dados e bancos de dados
-- APIs REST e integrações entre sistemas
-- C++ e Unreal Engine no desenvolvimento do Project Eclipse
-- JavaScript, Node.js e arquitetura de aplicações web
-- Flutter/Dart para aplicações mobile
+</div>
