@@ -8,7 +8,7 @@
 
 Estudando, experimentando e construindo projetos para desenvolver minhas habilidades em tecnologia.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nelson-neto-0498852b3/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nelson-neto-dev/)
 [![Portfólio](https://img.shields.io/badge/Portfólio-Visitar-20232A?style=for-the-badge&logo=githubpages&logoColor=white)](https://mkbraion.github.io)
 [![E-mail](https://img.shields.io/badge/E--mail-Contato-555555?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mkbraion@gmail.com)
 
@@ -35,9 +35,9 @@ Os repositórios abaixo documentam experiências práticas e projetos em diferen
 
 | Projeto | O que exploro nele | Links |
 | :--- | :--- | :--- |
-| **Loja virtual e checkout** | Fluxos de autenticação, carrinho, pedidos e integração de serviços | [Código](https://github.com/mkbraion/loja-checkout) |
-| **CRM — Funil de Vendas** | Organização de leads, etapas comerciais e integração com API | [Interface](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) |
-| **Lefon Agenda** | Gestão de agendamentos e acesso a dados | [Repositório](https://github.com/mkbraion/lefon-agenda) |
+| **Loja virtual e checkout** | Catálogo, carrinho, autenticação e pedidos, com preços calculados no servidor | [Código](https://github.com/mkbraion/loja-checkout) · [Aplicação](https://loja-checkout.onrender.com) |
+| **CRM — Funil de Vendas** | Leads em Kanban, indicadores comerciais e sincronização opcional com API | [Demo](https://mkbraion.github.io/crm-funil-vendas/) · [Código](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) |
+| **Lefon Agenda** | Agenda de visitas imobiliárias com modo de demonstração e integração opcional com Supabase | [Demo](https://mkbraion.github.io/lefon-agenda/) · [Código](https://github.com/mkbraion/lefon-agenda) |
 | **AstrBot Brasil** | Exploração e adaptação de projetos de código aberto | [Repositório](https://github.com/mkbraion/AstrBot-Brasil) |
 
 > Alguns projetos são estudos, protótipos ou trabalhos em evolução. Consulte cada repositório para conhecer seu estado atual, instruções e eventuais créditos e licenças.
@@ -82,6 +82,6 @@ Também estudo e desenvolvo iniciativas privadas relacionadas a **gestão de ven
 
 **Aprendendo continuamente, um projeto de cada vez.**
 
-[GitHub](https://github.com/mkbraion) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-0498852b3/) · [Portfólio](https://mkbraion.github.io)
+[GitHub](https://github.com/mkbraion) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-dev/) · [Portfólio](https://mkbraion.github.io)
 
 </div>
