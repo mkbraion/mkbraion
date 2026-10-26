@@ -35,15 +35,16 @@ Os repositórios abaixo documentam experiências práticas e projetos em diferen
 
 | Projeto | O que exploro nele | Links |
 | :--- | :--- | :--- |
-| **SalesHub** | Aplicações e ferramentas relacionadas à gestão de vendas | [Repositório](https://github.com/mkbraion/SalesHub) |
-| **KAIA / kaiafy** | Ideias e experimentos envolvendo IA e aplicações digitais | [Repositório](https://github.com/mkbraion/kaiafy) |
 | **Loja virtual e checkout** | Fluxos de autenticação, carrinho, pedidos e integração de serviços | [Código](https://github.com/mkbraion/loja-checkout) |
 | **CRM — Funil de Vendas** | Organização de leads, etapas comerciais e integração com API | [Interface](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) |
-| **Agenda para imóveis** | Experimentos com agendamento e organização de horários | [Repositório](https://github.com/mkbraion/remax-pactual-agenda) |
 | **Lefon Agenda** | Gestão de agendamentos e acesso a dados | [Repositório](https://github.com/mkbraion/lefon-agenda) |
 | **AstrBot Brasil** | Exploração e adaptação de projetos de código aberto | [Repositório](https://github.com/mkbraion/AstrBot-Brasil) |
 
 > Alguns projetos são estudos, protótipos ou trabalhos em evolução. Consulte cada repositório para conhecer seu estado atual, instruções e eventuais créditos e licenças.
+
+### Outros projetos em desenvolvimento
+
+Também estudo e desenvolvo iniciativas privadas relacionadas a **gestão de vendas, inteligência artificial e agendamentos**. Seus códigos não estão disponíveis publicamente; posso apresentar detalhes e demonstrações apropriadas conforme a evolução dos projetos.
 
 ## 📚 Tecnologias que estudo e exploro
 
