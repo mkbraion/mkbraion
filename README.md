@@ -1,6 +1,6 @@
 <div align="center">
 
-# Olá, eu sou Nelson Neto 👋
+# Nelson Neto 
 
 ### `mkbraion` · Estudante de Tecnologia
 
