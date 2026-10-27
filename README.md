@@ -1,87 +1,23 @@
-<div align="center">
+# Nelson Neto
 
-# Nelson Neto 
+Estudante de Engenharia de Software e Ciência de Dados e Inteligência Artificial. Desenvolvo projetos de software, aplicações web e automações.
 
-### `mkbraion` · Estudante de Tecnologia
+## Formação
 
-**Engenharia de Software | Ciência de Dados e Inteligência Artificial**
+- Ciência de Dados e Inteligência Artificial — UFSM, campus Cachoeira do Sul (2º semestre)
+- Engenharia de Software — Anhanguera (2º semestre)
 
-Estudando, experimentando e construindo projetos para desenvolver minhas habilidades em tecnologia.
+## Projetos
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nelson-neto-dev/)
-[![Portfólio](https://img.shields.io/badge/Portfólio-Visitar-20232A?style=for-the-badge&logo=githubpages&logoColor=white)](https://mkbraion.github.io)
-[![E-mail](https://img.shields.io/badge/E--mail-Contato-555555?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mkbraion@gmail.com)
+- [Loja virtual e checkout](https://github.com/mkbraion/loja-checkout) — catálogo, carrinho e pedidos.
+- [CRM — Funil de Vendas](https://github.com/mkbraion/crm-funil-vendas) — leads e indicadores comerciais.
+- [Lefon Agenda](https://github.com/mkbraion/lefon-agenda) — agenda de visitas imobiliárias.
+- [AstrBot Brasil](https://github.com/mkbraion/AstrBot-Brasil) — adaptação brasileira de projeto open source.
 
-📍 Santa Maria, Rio Grande do Sul, Brasil
+## Tecnologias
 
-</div>
+Python, JavaScript, Node.js, PostgreSQL, Flutter, HTML, CSS e Git.
 
----
+## Contato
 
-## 👨‍💻 Sobre mim
-
-Sou estudante de **Engenharia de Software** e **Ciência de Dados e Inteligência Artificial**, com interesse em programação, desenvolvimento de software, automação e IA.
-
-Uso este espaço para registrar projetos, experimentar ferramentas e acompanhar meu aprendizado. Estou construindo minha base técnica e busco oportunidades para aprender com outras pessoas e adquirir experiência profissional na área de TI.
-
-## 🎓 Formação acadêmica
-
-- **Ciência de Dados e Inteligência Artificial** — Universidade Federal de Santa Maria (UFSM), campus Cachoeira do Sul · **2º semestre, em andamento**
-- **Engenharia de Software** — Anhanguera Educacional · **2º semestre, em andamento**
-
-## 🚀 Projetos em destaque
-
-Os repositórios abaixo documentam experiências práticas e projetos em diferentes estágios de desenvolvimento. As tecnologias citadas descrevem os projetos, não certificações de domínio profissional.
-
-| Projeto | O que exploro nele | Links |
-| :--- | :--- | :--- |
-| **Loja virtual e checkout** | Catálogo, carrinho, autenticação e pedidos, com preços calculados no servidor | [Código](https://github.com/mkbraion/loja-checkout) · [Aplicação](https://loja-checkout.onrender.com) |
-| **CRM — Funil de Vendas** | Leads em Kanban, indicadores comerciais e sincronização opcional com API | [Demo](https://mkbraion.github.io/crm-funil-vendas/) · [Código](https://github.com/mkbraion/crm-funil-vendas) · [API](https://github.com/mkbraion/crm-api) |
-| **Lefon Agenda** | Agenda de visitas imobiliárias com modo de demonstração e integração opcional com Supabase | [Demo](https://mkbraion.github.io/lefon-agenda/) · [Código](https://github.com/mkbraion/lefon-agenda) |
-| **AstrBot Brasil** | Exploração e adaptação de projetos de código aberto | [Repositório](https://github.com/mkbraion/AstrBot-Brasil) |
-
-> Alguns projetos são estudos, protótipos ou trabalhos em evolução. Consulte cada repositório para conhecer seu estado atual, instruções e eventuais créditos e licenças.
-
-### Outros projetos em desenvolvimento
-
-Também estudo e desenvolvo iniciativas privadas relacionadas a **gestão de vendas, inteligência artificial e agendamentos**. Seus códigos não estão disponíveis publicamente; posso apresentar detalhes e demonstrações apropriadas conforme a evolução dos projetos.
-
-## 📚 Tecnologias que estudo e exploro
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
-</div>
-
-**Foco de aprendizado:** lógica de programação, fundamentos de software, análise de dados, inteligência artificial, bancos de dados e integração entre sistemas.
-
-## 📊 Atividade no GitHub
-
-<div align="center">
-
-![Estatísticas de mkbraion](https://github-readme-stats.vercel.app/api?username=mkbraion&show_icons=true&hide_border=true&theme=transparent)
-
-![Linguagens nos repositórios públicos](https://github-readme-stats.vercel.app/api/top-langs/?username=mkbraion&layout=compact&hide_border=true&theme=transparent)
-
-<sub>Os gráficos dependem de serviços externos e representam dados dos repositórios, não nível de proficiência.</sub>
-
-</div>
-
----
-
-<div align="center">
-
-**Aprendendo continuamente, um projeto de cada vez.**
-
-[GitHub](https://github.com/mkbraion) · [LinkedIn](https://www.linkedin.com/in/nelson-neto-dev/) · [Portfólio](https://mkbraion.github.io)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/nelson-neto-dev/) · [Portfólio](https://mkbraion.github.io) · [E-mail](mailto:mkbraion@gmail.com)
